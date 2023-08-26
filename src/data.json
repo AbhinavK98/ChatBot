@@ -1,0 +1,194 @@
+{
+    "applications": [
+      {
+        "name": "Icpaqs",
+        "issues": [
+          {
+            "name": "Printing",
+            "questions": [
+              {
+                "id": 1,
+                "questionText": "Check if reels are flowing iCPAQS in staging lane?",
+                "options": [
+                  {
+                    "optionText": "Yes",
+                    "type": "next",
+                    "nextQuestionId": 2
+                  },
+                  {
+                    "optionText": "Help",
+                    "type": "help",
+                    "helpLink": "https://example.com/help/printing"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "questionText": "Go to iCPQA print log-> Check if we are sending print to server?",
+                "options": [
+                  {
+                    "optionText": "Yes",
+                    "type": "next",
+                    "nextQuestionId": 3
+                  },
+                  {
+                    "optionText": "Help",
+                    "type": "help",
+                    "helpLink": "https://example.com/help/print-log"
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "questionText": "Did you check BT server queue?",
+                "options": [
+                  {
+                    "optionText": "Yes",
+                    "type": "next",
+                    "nextQuestionId": 4
+                  },
+                  {
+                    "optionText": "Help",
+                    "type": "help",
+                    "helpLink": "https://example.com/help/bt-server-queue"
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "questionText": "Did you try to ping the printer?",
+                "options": [
+                  {
+                    "optionText": "Yes",
+                    "type": "next",
+                    "nextQuestionId": 5
+                  },
+                  {
+                    "optionText": "Help",
+                    "type": "help",
+                    "helpLink": "https://example.com/help/ping-printer"
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "questionText": "Did you try to send a test print from iCPAQS and server?",
+                "options": [
+                  {
+                    "optionText": "Yes",
+                    "type": "next",
+                    "nextQuestionId": 6
+                  },
+                  {
+                    "optionText": "Help",
+                    "type": "help",
+                    "helpLink": "https://example.com/help/test-print"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "questionText": "Next Step",
+                "options": [
+                  {
+                    "optionText": "Yes",
+                    "type": "next",
+                    "nextQuestionId": 7
+                  },
+                  {
+                    "optionText": "Help",
+                    "type": "help",
+                    "helpLink": "https://example.com/help/next-step"
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "questionText": "Suggest Previous INC",
+                "options": [
+                  {
+                    "optionText": "Yes",
+                    "type": "next",
+                    "nextQuestionId": 8
+                  },
+                  {
+                    "optionText": "Help",
+                    "type": "help",
+                    "helpLink": "https://example.com/help/previous-inc"
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "questionText": "Knowledge article",
+                "options": [
+                  {
+                    "optionText": "Yes",
+                    "type": "next",
+                    "nextQuestionId": 9
+                  },
+                  {
+                    "optionText": "Help",
+                    "type": "help",
+                    "helpLink": "https://example.com/help/knowledge-article"
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "questionText": "Docs",
+                "options": [
+                  {
+                    "optionText": "Yes",
+                    "type": "next",
+                    "nextQuestionId": 10
+                  },
+                  {
+                    "optionText": "Help",
+                    "type": "help",
+                    "helpLink": "https://example.com/help/docs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Services",
+            "questions": [
+              
+            ]
+          },
+          {
+            "name": "x",
+            "questions": [
+              
+            ]
+          },
+          {
+            "name": "y",
+            "questions": [
+              
+            ]
+          },
+          {
+            "name": "z",
+            "questions": [
+              
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ignition",
+        "issues": [
+          
+        ]
+      },
+      {
+        "name": "MIT",
+        "issues": [
+          
+        ]
+      }
+    ]
+  }
